@@ -12,9 +12,29 @@
 		AC8C3DE620B48F140070998C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8C3DE420B48F140070998C /* Main.storyboard */; };
 		AC8C3DE820B48F150070998C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8C3DE720B48F150070998C /* Assets.xcassets */; };
 		AC8C3DEB20B48F150070998C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8C3DE920B48F150070998C /* LaunchScreen.storyboard */; };
+		AC8C3DF920B493580070998C /* DetectModuleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3DF820B493580070998C /* DetectModuleVIew.swift */; };
+		AC8C3DFB20B4935F0070998C /* DetectModuleVIewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3DFA20B4935F0070998C /* DetectModuleVIewInput.swift */; };
+		AC8C3DFD20B493690070998C /* DetectModuleVIewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3DFC20B493690070998C /* DetectModuleVIewOutput.swift */; };
+		AC8C3DFF20B4937A0070998C /* DetectModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3DFE20B4937A0070998C /* DetectModuleInteractor.swift */; };
+		AC8C3E0120B4938A0070998C /* DetectModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0020B4938A0070998C /* DetectModuleInteractorInput.swift */; };
+		AC8C3E0320B493950070998C /* DetectModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0220B493950070998C /* DetectModuleInteractorOutput.swift */; };
+		AC8C3E0520B493A70070998C /* DetectModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0420B493A70070998C /* DetectModulePresenter.swift */; };
+		AC8C3E0720B493AD0070998C /* DetectModulePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0620B493AD0070998C /* DetectModulePresenterInput.swift */; };
+		AC8C3E0920B493BC0070998C /* DetectModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0820B493BC0070998C /* DetectModuleRouter.swift */; };
+		AC8C3E0B20B493C50070998C /* DetectModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0A20B493C50070998C /* DetectModuleRouterInput.swift */; };
+		AC8C3E0D20B493D50070998C /* DetectModuleAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0C20B493D50070998C /* DetectModuleAssemble.swift */; };
+		AC8C3E0F20B493E10070998C /* DetectModuleAssembleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E0E20B493E10070998C /* DetectModuleAssembleInput.swift */; };
+		AC8C3E1220B496070070998C /* ImageAndFaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E1120B496070070998C /* ImageAndFaceDetection.swift */; };
+		AC8C3E1420B496AB0070998C /* VectorAndDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E1320B496AB0070998C /* VectorAndDistance.swift */; };
+		AC8C3E1620B496D90070998C /* NodeDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C3E1520B496D90070998C /* NodeDrawing.swift */; };
+		ACCA708F20C180C2002CB083 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA708E20C180C2002CB083 /* User.swift */; };
+		ACCA709120C180DD002CB083 /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA709020C180DD002CB083 /* Faculty.swift */; };
+		D778FE341C052321E37FF210 /* Pods_DiplomaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE00D89B466E7A11DCB410A /* Pods_DiplomaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08206EBE4E06708AA511ABA0 /* Pods-DiplomaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiplomaApp/Pods-DiplomaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE00D89B466E7A11DCB410A /* Pods_DiplomaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiplomaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8C3DDD20B48F140070998C /* DiplomaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8C3DE020B48F140070998C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC8C3DE220B48F140070998C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,24 @@
 		AC8C3DE720B48F150070998C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8C3DEA20B48F150070998C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC8C3DEC20B48F150070998C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8C3DF820B493580070998C /* DetectModuleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleVIew.swift; sourceTree = "<group>"; };
+		AC8C3DFA20B4935F0070998C /* DetectModuleVIewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleVIewInput.swift; sourceTree = "<group>"; };
+		AC8C3DFC20B493690070998C /* DetectModuleVIewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleVIewOutput.swift; sourceTree = "<group>"; };
+		AC8C3DFE20B4937A0070998C /* DetectModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleInteractor.swift; sourceTree = "<group>"; };
+		AC8C3E0020B4938A0070998C /* DetectModuleInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleInteractorInput.swift; sourceTree = "<group>"; };
+		AC8C3E0220B493950070998C /* DetectModuleInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		AC8C3E0420B493A70070998C /* DetectModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModulePresenter.swift; sourceTree = "<group>"; };
+		AC8C3E0620B493AD0070998C /* DetectModulePresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModulePresenterInput.swift; sourceTree = "<group>"; };
+		AC8C3E0820B493BC0070998C /* DetectModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleRouter.swift; sourceTree = "<group>"; };
+		AC8C3E0A20B493C50070998C /* DetectModuleRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleRouterInput.swift; sourceTree = "<group>"; };
+		AC8C3E0C20B493D50070998C /* DetectModuleAssemble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleAssemble.swift; sourceTree = "<group>"; };
+		AC8C3E0E20B493E10070998C /* DetectModuleAssembleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectModuleAssembleInput.swift; sourceTree = "<group>"; };
+		AC8C3E1120B496070070998C /* ImageAndFaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndFaceDetection.swift; sourceTree = "<group>"; };
+		AC8C3E1320B496AB0070998C /* VectorAndDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorAndDistance.swift; sourceTree = "<group>"; };
+		AC8C3E1520B496D90070998C /* NodeDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeDrawing.swift; sourceTree = "<group>"; };
+		ACCA708E20C180C2002CB083 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACCA709020C180DD002CB083 /* Faculty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
+		C6D07045B877B0F2C8918AF8 /* Pods-DiplomaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiplomaApp/Pods-DiplomaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D778FE341C052321E37FF210 /* Pods_DiplomaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B400523A67BE5BB46F4253E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CE00D89B466E7A11DCB410A /* Pods_DiplomaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		687462FC59934CDB045CFC1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08206EBE4E06708AA511ABA0 /* Pods-DiplomaApp.debug.xcconfig */,
+				C6D07045B877B0F2C8918AF8 /* Pods-DiplomaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC8C3DD420B48F140070998C = {
 			isa = PBXGroup;
 			children = (
 				AC8C3DDF20B48F140070998C /* DiplomaApp */,
 				AC8C3DDE20B48F140070998C /* Products */,
+				687462FC59934CDB045CFC1B /* Pods */,
+				1B400523A67BE5BB46F4253E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +112,9 @@
 		AC8C3DDF20B48F140070998C /* DiplomaApp */ = {
 			isa = PBXGroup;
 			children = (
+				ACCA708D20C180B6002CB083 /* Models */,
+				AC8C3E1020B495D20070998C /* Helpers */,
+				AC8C3DF220B492C00070998C /* DetectModule */,
 				AC8C3DE020B48F140070998C /* AppDelegate.swift */,
 				AC8C3DE220B48F140070998C /* ViewController.swift */,
 				AC8C3DE420B48F140070998C /* Main.storyboard */,
@@ -64,6 +125,84 @@
 			path = DiplomaApp;
 			sourceTree = "<group>";
 		};
+		AC8C3DF220B492C00070998C /* DetectModule */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3DF720B4932D0070998C /* Assemble */,
+				AC8C3DF620B493220070998C /* Router */,
+				AC8C3DF520B492F40070998C /* Presenter */,
+				AC8C3DF420B492E00070998C /* Interactor */,
+				AC8C3DF320B492D70070998C /* View */,
+			);
+			path = DetectModule;
+			sourceTree = "<group>";
+		};
+		AC8C3DF320B492D70070998C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3DF820B493580070998C /* DetectModuleVIew.swift */,
+				AC8C3DFA20B4935F0070998C /* DetectModuleVIewInput.swift */,
+				AC8C3DFC20B493690070998C /* DetectModuleVIewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC8C3DF420B492E00070998C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3DFE20B4937A0070998C /* DetectModuleInteractor.swift */,
+				AC8C3E0020B4938A0070998C /* DetectModuleInteractorInput.swift */,
+				AC8C3E0220B493950070998C /* DetectModuleInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AC8C3DF520B492F40070998C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3E0420B493A70070998C /* DetectModulePresenter.swift */,
+				AC8C3E0620B493AD0070998C /* DetectModulePresenterInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AC8C3DF620B493220070998C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3E0820B493BC0070998C /* DetectModuleRouter.swift */,
+				AC8C3E0A20B493C50070998C /* DetectModuleRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AC8C3DF720B4932D0070998C /* Assemble */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3E0C20B493D50070998C /* DetectModuleAssemble.swift */,
+				AC8C3E0E20B493E10070998C /* DetectModuleAssembleInput.swift */,
+			);
+			path = Assemble;
+			sourceTree = "<group>";
+		};
+		AC8C3E1020B495D20070998C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C3E1120B496070070998C /* ImageAndFaceDetection.swift */,
+				AC8C3E1320B496AB0070998C /* VectorAndDistance.swift */,
+				AC8C3E1520B496D90070998C /* NodeDrawing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ACCA708D20C180B6002CB083 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACCA708E20C180C2002CB083 /* User.swift */,
+				ACCA709020C180DD002CB083 /* Faculty.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC8C3DEF20B48F150070998C /* Build configuration list for PBXNativeTarget "DiplomaApp" */;
 			buildPhases = (
+				0151192A5A8D685AB0D74389 /* [CP] Check Pods Manifest.lock */,
 				AC8C3DD920B48F140070998C /* Sources */,
 				AC8C3DDA20B48F140070998C /* Frameworks */,
 				AC8C3DDB20B48F140070998C /* Resources */,
+				75C3A5A53392C0AC40599FD8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +271,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0151192A5A8D685AB0D74389 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiplomaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C3A5A53392C0AC40599FD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DiplomaApp/Pods-DiplomaApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Async.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiplomaApp/Pods-DiplomaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC8C3DD920B48F140070998C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8C3E0B20B493C50070998C /* DetectModuleRouterInput.swift in Sources */,
+				AC8C3E0320B493950070998C /* DetectModuleInteractorOutput.swift in Sources */,
+				AC8C3E0120B4938A0070998C /* DetectModuleInteractorInput.swift in Sources */,
+				ACCA709120C180DD002CB083 /* Faculty.swift in Sources */,
+				AC8C3E1420B496AB0070998C /* VectorAndDistance.swift in Sources */,
+				AC8C3DFB20B4935F0070998C /* DetectModuleVIewInput.swift in Sources */,
 				AC8C3DE320B48F140070998C /* ViewController.swift in Sources */,
+				AC8C3DF920B493580070998C /* DetectModuleVIew.swift in Sources */,
 				AC8C3DE120B48F140070998C /* AppDelegate.swift in Sources */,
+				AC8C3E1620B496D90070998C /* NodeDrawing.swift in Sources */,
+				AC8C3E1220B496070070998C /* ImageAndFaceDetection.swift in Sources */,
+				AC8C3E0F20B493E10070998C /* DetectModuleAssembleInput.swift in Sources */,
+				AC8C3E0520B493A70070998C /* DetectModulePresenter.swift in Sources */,
+				AC8C3DFD20B493690070998C /* DetectModuleVIewOutput.swift in Sources */,
+				AC8C3E0720B493AD0070998C /* DetectModulePresenterInput.swift in Sources */,
+				ACCA708F20C180C2002CB083 /* User.swift in Sources */,
+				AC8C3E0920B493BC0070998C /* DetectModuleRouter.swift in Sources */,
+				AC8C3E0D20B493D50070998C /* DetectModuleAssemble.swift in Sources */,
+				AC8C3DFF20B4937A0070998C /* DetectModuleInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +481,7 @@
 		};
 		AC8C3DF020B48F150070998C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08206EBE4E06708AA511ABA0 /* Pods-DiplomaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +500,7 @@
 		};
 		AC8C3DF120B48F150070998C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D07045B877B0F2C8918AF8 /* Pods-DiplomaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
