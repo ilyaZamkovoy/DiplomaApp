@@ -46,7 +46,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         Observable<Int>.interval(0.2, scheduler: SerialDispatchQueueScheduler(qos: .default))
             .subscribeOn(SerialDispatchQueueScheduler(qos: .background))
-            .concatMap{ _ in  self.faceObservation() }
+            .concatMap{ _ in  self.detectFaceOnPhoto() }
             .flatMap{ Observable.from($0) }
             .flatMap{ self.createfaceObservable(face: $0.observation, image: $0.image, frame: $0.frame) }
             .subscribe { [unowned self] event in
@@ -86,7 +86,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     // MARK: - Face detections
     
-    private func faceObservation() -> Observable<[(observation: VNFaceObservation, image: CIImage, frame: ARFrame)]> {
+    private func detectFaceOnPhoto() -> Observable<[(observation: VNFaceObservation, image: CIImage, frame: ARFrame)]> {
         return Observable<[(observation: VNFaceObservation, image: CIImage, frame: ARFrame)]>.create{ observer in
             guard let frame = self.sceneView.session.currentFrame else {
                 print("No frame available")

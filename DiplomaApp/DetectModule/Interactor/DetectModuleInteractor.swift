@@ -11,5 +11,9 @@ import Foundation
 class DetectModuleInteractor: DetectModuleInteractorInput {
     
     weak var output: DetectModuleInteractorOutput!
+
+    func getProfileByID(){
+        
+    }
     
 }
